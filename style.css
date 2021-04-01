@@ -13,7 +13,7 @@ body {
 .aaa img {
   width: 100%;
 }
-.aaa .more_inf {
+.aaa__more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -28,12 +28,12 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.task-view {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.add-task__task-wrapper {
   display: flex;
 }
 ul {
@@ -148,11 +148,11 @@ ul li input[type="text"] {
   display: none
 }
 
-ul li.editMode input[type="text"] {
+ul li.edit-mode input[type="text"] {
   display: inline-block;
   width:224px
 }
 
-ul li.editMode label {
+ul li.edit-mode label {
   display: none;
 }
