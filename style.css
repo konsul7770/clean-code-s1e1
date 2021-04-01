@@ -31,6 +31,9 @@
   width: 500px;
   margin: 0 auto 0;
 }
+.add-task_position {
+  margin: 1em 0 1em 0;
+}
 .task-view {
   width: 56%;
   display: inline-block;
